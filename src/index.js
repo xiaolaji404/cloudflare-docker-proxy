@@ -9,7 +9,6 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-const routes = {
   "docker.proxy.xiaolaji.site": "https://registry-1.docker.io",
   "quay.proxy.xiaolaji.site": "https://quay.io",
   "gcr.proxy.xiaolaji.site": "https://gcr.io",
@@ -17,8 +16,7 @@ const routes = {
   "k8s.proxy.xiaolaji.site": "https://registry.k8s.io",
   "ghcr.proxy.xiaolaji.site": "https://ghcr.io",
   "cloudsmith.proxy.xiaolaji.site": "https://docker.cloudsmith.io",
-};
-
+  
   // staging
   ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
 };
