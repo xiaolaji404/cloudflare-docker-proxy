@@ -16,13 +16,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.proxy.xiaolaji.site", custom_domain = true },
-  { pattern = "quay.proxy.xiaolaji.site", custom_domain = true },
-  { pattern = "gcr.proxy.xiaolaji.site", custom_domain = true },
-  { pattern = "k8s-gcr.proxy.xiaolaji.site", custom_domain = true },
-  { pattern = "k8s.proxy.xiaolaji.site", custom_domain = true },
-  { pattern = "ghcr.proxy.xiaolaji.site", custom_domain = true },
-  { pattern = "cloudsmith.proxy.xiaolaji.site", custom_domain = true },
+  { pattern = "docker.xiaolaji.site", custom_domain = true },
+  { pattern = "quay.xiaolaji.site", custom_domain = true },
+  { pattern = "gcr.xiaolaji.site", custom_domain = true },
+  { pattern = "k8s-gcr.xiaolaji.site", custom_domain = true },
+  { pattern = "k8s.xiaolaji.site", custom_domain = true },
+  { pattern = "ghcr.xiaolaji.site", custom_domain = true },
+  { pattern = "cloudsmith.xiaolaji.site", custom_domain = true },
 ]
 
 [env.production.vars]
